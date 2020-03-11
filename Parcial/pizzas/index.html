@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Parcial</title>
+    </head>
+    <body>
+        <h1>Catálogo de Pizzas</h1>
+            <form action="database.php" method="post" class="form-register">
+                <h2 class="form-titulo">Pizzas</h2>
+                <div class="contenedor-inputs">    
+                    <input type="text" name="nombre" placeholder="Nombre" required class="input-100">
+                    <select name="Pizzas"class="input-100">
+                            <option value="hawaiana" name="hawaiana" class="input-100">Hawaiana </option> 
+                            <option value="champiñones" name="champiñones" class="input-100">Chapiñones</option>
+                            <option value="mexicana" name="mexicana" class="input-100">Mexicana</option>
+                            <option value="carnes" name="carnes" class="input-100">Carnes</option>
+                            <option value="mixta" name="mixta" class="input-100">Mixta</option>
+                        </select>
+                    <input type="submit" value="Enviar"required class="btn-enviar">
+                </div>
+            </form>        
+    </body>
+</html>
